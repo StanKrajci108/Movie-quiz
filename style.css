@@ -1,0 +1,79 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: radial-gradient(
+    farthest-corner at 50% 70%,
+    #ffffff,
+    rgb(163, 231, 180),
+    rgb(56, 159, 170) 40%,
+    rgb(19, 10, 121) 70%,
+    rgb(10, 5, 64) 100%
+  );
+  background-attachment: fixed;
+  height: 100%;
+}
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  gap: 50px;
+  margin: 150px auto;
+  padding: 60px 40px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px 5px #2727274d;
+}
+
+.question {
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 1.4;
+}
+/* .options {
+  margin: 30px 0;
+} */
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+#submit {
+  display: block;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 167, 62, 1) 0%,
+    rgba(102, 247, 113, 1) 100%
+  );
+  box-shadow: 0 10px 24px -8px #14a73e98;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#submit:active {
+  transform: translateY(2px);
+  box-shadow: 0 6px 16px -8px #14a73e98;
+}
+
+#result {
+  margin: 0 auto;
+  font-size: 1.4em;
+  color: #4a3d3d;
+  /* margin-top: 50px; */
+}
+/* Style the radio button and the label text to align them vertically */
+.options input[type="radio"] {
+  position: relative;
+  top: 1px;
+  right: 3px;
+}
