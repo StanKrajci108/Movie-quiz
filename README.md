@@ -1,2 +1,2 @@
-#Movie quiz
-brush of your movie memory
+# Movie quiz
+Undust your movie memory :)
