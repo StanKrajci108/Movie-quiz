@@ -36,7 +36,7 @@ const questions = [
   },
   {
     question:
-      "Which movie features Leonardo DiCaprio as a skilled thief who infiltrates dreams to steal secrets?",
+      "Which movie features Leonardo DiCaprio as a skilled thief who steal secrets?",
     answers: {
       a: "Inception",
       b: "The Departed",
@@ -98,6 +98,61 @@ const questions = [
       d: "The Green Mile",
     },
     correctAnswer: "c",
+  },
+  {
+    question:
+      "Which movie follows the story of a boxer named Jake LaMotta, portrayed by Robert De Niro?",
+    answers: {
+      a: "Raging Bull",
+      b: "Rocky",
+      c: "Milion Dollar Baby",
+      d: "The Fighter",
+    },
+    correctAnswer: "a",
+  },
+  {
+    question:
+      "Which film features a group of astronauts stranded on Mars after a storm forces their evacuation?",
+    answers: {
+      a: "Interstellar",
+      b: "Gravity",
+      c: "The Martian",
+      d: "Apollo 13",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question:
+      "Which movie tells the story of a young boy who finds himself in a fantasy world filled with strange creatures?",
+    answers: {
+      a: "Spirited Away",
+      b: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      c: "Pan's Labyrinth",
+      d: "Coraline",
+    },
+    correctAnswer: "c",
+  },
+  {
+    question:
+      "Which film features a character named Jack Dawson who falls in love with a woman named Rose aboard the Titanic?",
+    answers: {
+      a: "The Great Gatsby",
+      b: "Revolutionary Road",
+      c: "The Titanic",
+      d: "Titanic",
+    },
+    correctAnswer: "d",
+  },
+  {
+    question:
+      "Which Christopher Nolan film features a complex narrative structure involving characters named Leonard, Teddy, and Natalie?",
+    answers: {
+      a: "Insomnia",
+      b: "Following",
+      c: "The Prestige",
+      d: "Memento",
+    },
+    correctAnswer: "d",
   },
 ];
 
