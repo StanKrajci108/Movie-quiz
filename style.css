@@ -69,7 +69,10 @@ body {
   margin: 0 auto;
   font-size: 1.4em;
   color: #4a3d3d;
-  /* margin-top: 50px; */
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+  max-width: 600px;
 }
 /* Style the radio button and the label text to align them vertically */
 .options input[type="radio"] {
