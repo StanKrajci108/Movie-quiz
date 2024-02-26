@@ -126,7 +126,7 @@ const questions = [
       "Which movie tells the story of a young boy who finds himself in a fantasy world filled with strange creatures?",
     answers: {
       a: "Spirited Away",
-      b: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+      b: "The Chronicles of Narnia",
       c: "Pan's Labyrinth",
       d: "Coraline",
     },

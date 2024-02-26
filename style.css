@@ -29,14 +29,24 @@ body {
   box-shadow: 0 10px 15px 5px #2727274d;
 }
 
+.quiz-container > .question:first-child {
+  display: flex;
+  align-items: center;
+  flex: 0 0 100px;
+}
+
 .question {
   font-size: 1.4em;
   text-align: center;
   line-height: 1.4;
+  font-weight: 600;
+  color: #4a3d3d;
 }
-/* .options {
-  margin: 30px 0;
-} */
+
+.quiz-container > .question:first-child {
+  height: 200%; /* Set the height of the first question to be twice as big */
+}
+
 .options label {
   display: block;
   margin-bottom: 10px;
