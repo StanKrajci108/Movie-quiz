@@ -160,34 +160,24 @@ let currentQuestion = 0;
 let numCorrect = 0;
 
 function showQuestion(question, quizContainer) {
-  let output = [];
-  let answers = [];
+  let optionsHTML = [];
+  let answersHTML = [];
 
-  for (letter in question.answers) {
-    answers.push(
-      "<label>" +
-        '<input type="radio" name="question" value="' +
-        letter +
-        '">' +
-        "<span>" +
-        letter +
-        ": " +
-        question.answers[letter] +
-        "</span>" +
-        "</label>"
+  for (let letter in question.answers) {
+    answersHTML.push(
+      `<label>
+        <input type="radio" name="question" value="${letter}">
+        <span>${letter}: ${question.answers[letter]}</span>
+      </label>`
     );
   }
 
-  output.push(
-    '<div class="question">' +
-      question.question +
-      "</div>" +
-      '<div class="options">' +
-      answers.join("") +
-      "</div>"
+  optionsHTML.push(
+    `<div class="question">${question.question}</div>
+    <div class="options">${answersHTML.join("")}</div>`
   );
 
-  quizContainer.innerHTML = output.join("");
+  quizContainer.innerHTML = optionsHTML.join("");
   quizContainer.appendChild(submitButton);
 }
 
