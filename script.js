@@ -134,7 +134,7 @@ const questions = [
   },
   {
     question:
-      "Which film features a character named Jack Dawson who falls in love with a woman named Rose aboard the Titanic?",
+      "Which film depicts a romance between Jack Dawson and Rose aboard a doomed ship?",
     answers: {
       a: "The Great Gatsby",
       b: "Revolutionary Road",
@@ -145,7 +145,7 @@ const questions = [
   },
   {
     question:
-      "Which Christopher Nolan film features a complex narrative structure involving characters named Leonard, Teddy, and Natalie?",
+      "Which Christopher Nolan film has a complex narrative involving characters named Leonard, Teddy, and Natalie?",
     answers: {
       a: "Insomnia",
       b: "Following",
