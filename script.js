@@ -205,15 +205,11 @@ function showNextQuestion(questions, quizContainer, resultsContainer) {
 
   if (currentQuestion >= questions.length) {
     let percentage = (numCorrect / questions.length) * 100;
-    resultsContainer.innerHTML =
-      "You guessed " +
-      numCorrect +
-      " out of " +
-      questions.length +
-      " questions correctly and you were " +
-      percentage.toFixed(0) +
-      "%" +
-      " right with your answers";
+    resultsContainer.innerHTML = `You guessed ${numCorrect} out of ${
+      questions.length
+    } questions correctly and you were ${percentage.toFixed(
+      0
+    )}% right with your answers`;
   } else {
     showQuestion(questions[currentQuestion], quizContainer);
   }
