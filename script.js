@@ -216,7 +216,7 @@ submitButton.addEventListener("click", function () {
 let = resultElement = document.querySelector("#result");
 
 resultElement.style.color = "#42479f";
-resultElement.style.fontSize = "2rem";
+resultElement.style.fontSize = "1.5rem";
 resultElement.style.display = "block";
 resultElement.style.textAlign = "center";
-resultElement.style.marginTop = "300px";
+resultElement.style.marginTop = "400px";
