@@ -1,9 +1,12 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Unicode",
-    Geneva, Verdana, sans-serif;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
   background-image: radial-gradient(
     farthest-corner at 50% 70%,
     #ffffff,
@@ -21,9 +24,9 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  gap: 50px;
-  margin: 150px auto;
-  padding: 60px 40px;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 40px;
   background-color: #cbc8c8;
   border-radius: 15px;
   box-shadow: 0 10px 15px 5px #2727274d;
