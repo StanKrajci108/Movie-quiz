@@ -213,7 +213,7 @@ submitButton.addEventListener("click", function () {
   showNextQuestion(questions, quizContainer, resultsContainer);
 });
 
-let = resultElement = document.querySelector("#result");
+let resultElement = document.querySelector("#result");
 
 resultElement.style.color = "#42479f";
 resultElement.style.fontSize = "1.5rem";
