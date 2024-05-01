@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px inset white;
   width: 500px;
   gap: 40px;
   position: relative;
@@ -54,7 +55,7 @@ body {
   text-align: center;
   line-height: 1.4;
   font-weight: 600;
-  color: #4a3d3d;
+  color: #3d3232;
 }
 
 .options label {
@@ -101,7 +102,7 @@ body {
   line-height: 1.4;
   width: 500px;
   background-color: #cbc8c876;
-  border: 1px solid #ffffff;
+  border: 1px inset #ffffff;
   border-radius: 15px;
   box-shadow: 0 10px 15px 5px #2727274d;
   transition: 0.5s ease-in-out;
