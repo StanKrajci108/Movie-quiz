@@ -26,10 +26,12 @@ body {
   align-items: center;
   width: 500px;
   gap: 30px;
-  position: absolute;
+  position: relative;
+  /* position: absolute;
   top: 35%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+  margin: 200px auto;
   padding: 40px;
   background-color: #cbc8c8;
   border-radius: 15px;
@@ -93,4 +95,15 @@ body {
   top: 1px;
   right: 3px;
   cursor: pointer;
+}
+
+.movie {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.movie img {
+  width: 100px;
 }
