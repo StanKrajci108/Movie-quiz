@@ -108,13 +108,21 @@ body {
 
 #movie {
   position: absolute;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   top: -50px;
-  right: -50px;
+  right: -40px;
 }
 
 #movie img {
+  width: 100px;
+  transform: rotate(15deg);
+}
+
+#popcorn {
+  position: absolute;
+  bottom: -30px;
+  left: -40px;
+}
+
+#popcorn img {
   width: 100px;
 }

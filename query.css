@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
-  .quiz-container {
+  .container {
     width: 80%;
+    margin: 150px auto;
   }
 
   #result {
@@ -13,5 +14,10 @@
   .question {
     font-size: 1.1rem;
     font-weight: 600;
+  }
+
+  #popcorn img,
+  #movie img {
+    width: 80px;
   }
 }
