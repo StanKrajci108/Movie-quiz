@@ -1,12 +1,13 @@
 @media (max-width: 768px) {
   .container {
     width: 80%;
-    margin: 150px auto;
+    margin: 100px auto;
   }
 
   #result {
     font-size: 1.3rem;
     position: absolute;
+    min-width: 300px;
     top: 80%;
     left: 50%;
   }
@@ -16,8 +17,16 @@
     font-weight: 600;
   }
 
+  #popcorn {
+    left: -25px;
+  }
+
+  #movie {
+    right: -25px;
+  }
+
   #popcorn img,
   #movie img {
-    width: 80px;
+    width: 75px;
   }
 }

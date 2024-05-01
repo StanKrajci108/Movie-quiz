@@ -23,137 +23,137 @@ const questions = [
     },
     correctAnswer: "b",
   },
-  {
-    question:
-      "In which movie does Tom Hanks portray a character stranded on a deserted island?",
-    answers: {
-      a: "Cast Away",
-      b: "Saving private Ryan",
-      c: "The Terminal",
-      d: "The Green Mile",
-    },
-    correctAnswer: "a",
-  },
-  {
-    question:
-      "Which movie features Leonardo DiCaprio as a skilled thief who steal secrets?",
-    answers: {
-      a: "Inception",
-      b: "The Departed",
-      c: "The Wolf of Wall Street",
-      d: "The Revenant",
-    },
-    correctAnswer: "a",
-  },
-  {
-    question:
-      "Which film follows the story of a young boy who befriends an alien stranded on Earth?",
-    answers: {
-      a: "Close Encounters of the Third Kind",
-      b: "Signs",
-      c: "E.T. the Extra-Terrestrial",
-      d: "War of the worlds",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question: "Which movie features a character named Tyler Durden?",
-    answers: {
-      a: "The Game",
-      b: "Fight Club",
-      c: "Se7en",
-      d: "The Social Network",
-    },
-    correctAnswer: "b",
-  },
-  {
-    question:
-      "Which film, directed by Quentin Tarantino, follows a group of criminals planning a jewelry heist?",
-    answers: {
-      a: "Jackie brown",
-      b: "Kill Bill",
-      c: "Ocean's Eleven",
-      d: "Reservoir Dogs",
-    },
-    correctAnswer: "d",
-  },
-  {
-    question:
-      "Which movie stars Russell Crowe as a mathematician who develops schizophrenia?",
-    answers: {
-      a: "Gladitor",
-      b: "The insider",
-      c: "A Beautiful Mind",
-      d: "Master and Commander",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question:
-      "Which film is based on the true story of a man who gets wrongly convicted for the murder of his wife?",
-    answers: {
-      a: "The Shawshang Redemption",
-      b: "Mystic River",
-      c: "Gone Girl",
-      d: "The Green Mile",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question:
-      "Which movie follows the story of a boxer named Jake LaMotta, portrayed by Robert De Niro?",
-    answers: {
-      a: "Raging Bull",
-      b: "Rocky",
-      c: "Milion Dollar Baby",
-      d: "The Fighter",
-    },
-    correctAnswer: "a",
-  },
-  {
-    question:
-      "Which film features a group of astronauts stranded on Mars after a storm forces their evacuation?",
-    answers: {
-      a: "Interstellar",
-      b: "Gravity",
-      c: "The Martian",
-      d: "Apollo 13",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question:
-      "Which movie tells the story of a young boy who finds himself in a fantasy world filled with strange creatures?",
-    answers: {
-      a: "Spirited Away",
-      b: "The Chronicles of Narnia",
-      c: "Pan's Labyrinth",
-      d: "Coraline",
-    },
-    correctAnswer: "c",
-  },
-  {
-    question:
-      "Which film depicts a romance between Jack Dawson and Rose aboard a doomed ship?",
-    answers: {
-      a: "The Great Gatsby",
-      b: "Revolutionary Road",
-      c: "The Titanic",
-      d: "Titanic",
-    },
-    correctAnswer: "d",
-  },
-  {
-    question:
-      "Which Christopher Nolan film has a complex narrative involving characters named Leonard, Teddy, and Natalie?",
-    answers: {
-      a: "Insomnia",
-      b: "Following",
-      c: "The Prestige",
-      d: "Memento",
-    },
-    correctAnswer: "d",
-  },
+  // {
+  //   question:
+  //     "In which movie does Tom Hanks portray a character stranded on a deserted island?",
+  //   answers: {
+  //     a: "Cast Away",
+  //     b: "Saving private Ryan",
+  //     c: "The Terminal",
+  //     d: "The Green Mile",
+  //   },
+  //   correctAnswer: "a",
+  // },
+  // {
+  //   question:
+  //     "Which movie features Leonardo DiCaprio as a skilled thief who steal secrets?",
+  //   answers: {
+  //     a: "Inception",
+  //     b: "The Departed",
+  //     c: "The Wolf of Wall Street",
+  //     d: "The Revenant",
+  //   },
+  //   correctAnswer: "a",
+  // },
+  // {
+  //   question:
+  //     "Which film follows the story of a young boy who befriends an alien stranded on Earth?",
+  //   answers: {
+  //     a: "Close Encounters of the Third Kind",
+  //     b: "Signs",
+  //     c: "E.T. the Extra-Terrestrial",
+  //     d: "War of the worlds",
+  //   },
+  //   correctAnswer: "c",
+  // },
+  // {
+  //   question: "Which movie features a character named Tyler Durden?",
+  //   answers: {
+  //     a: "The Game",
+  //     b: "Fight Club",
+  //     c: "Se7en",
+  //     d: "The Social Network",
+  //   },
+  //   correctAnswer: "b",
+  // },
+  // {
+  //   question:
+  //     "Which film, directed by Quentin Tarantino, follows a group of criminals planning a jewelry heist?",
+  //   answers: {
+  //     a: "Jackie brown",
+  //     b: "Kill Bill",
+  //     c: "Ocean's Eleven",
+  //     d: "Reservoir Dogs",
+  //   },
+  //   correctAnswer: "d",
+  // },
+  // {
+  //   question:
+  //     "Which movie stars Russell Crowe as a mathematician who develops schizophrenia?",
+  //   answers: {
+  //     a: "Gladitor",
+  //     b: "The insider",
+  //     c: "A Beautiful Mind",
+  //     d: "Master and Commander",
+  //   },
+  //   correctAnswer: "c",
+  // },
+  // {
+  //   question:
+  //     "Which film is based on the true story of a man who gets wrongly convicted for the murder of his wife?",
+  //   answers: {
+  //     a: "The Shawshang Redemption",
+  //     b: "Mystic River",
+  //     c: "Gone Girl",
+  //     d: "The Green Mile",
+  //   },
+  //   correctAnswer: "c",
+  // },
+  // {
+  //   question:
+  //     "Which movie follows the story of a boxer named Jake LaMotta, portrayed by Robert De Niro?",
+  //   answers: {
+  //     a: "Raging Bull",
+  //     b: "Rocky",
+  //     c: "Milion Dollar Baby",
+  //     d: "The Fighter",
+  //   },
+  //   correctAnswer: "a",
+  // },
+  // {
+  //   question:
+  //     "Which film features a group of astronauts stranded on Mars after a storm forces their evacuation?",
+  //   answers: {
+  //     a: "Interstellar",
+  //     b: "Gravity",
+  //     c: "The Martian",
+  //     d: "Apollo 13",
+  //   },
+  //   correctAnswer: "c",
+  // },
+  // {
+  //   question:
+  //     "Which movie tells the story of a young boy who finds himself in a fantasy world filled with strange creatures?",
+  //   answers: {
+  //     a: "Spirited Away",
+  //     b: "The Chronicles of Narnia",
+  //     c: "Pan's Labyrinth",
+  //     d: "Coraline",
+  //   },
+  //   correctAnswer: "c",
+  // },
+  // {
+  //   question:
+  //     "Which film depicts a romance between Jack Dawson and Rose aboard a doomed ship?",
+  //   answers: {
+  //     a: "The Great Gatsby",
+  //     b: "Revolutionary Road",
+  //     c: "The Titanic",
+  //     d: "Titanic",
+  //   },
+  //   correctAnswer: "d",
+  // },
+  // {
+  //   question:
+  //     "Which Christopher Nolan film has a complex narrative involving characters named Leonard, Teddy, and Natalie?",
+  //   answers: {
+  //     a: "Insomnia",
+  //     b: "Following",
+  //     c: "The Prestige",
+  //     d: "Memento",
+  //   },
+  //   correctAnswer: "d",
+  // },
 ];
 
 let currentQuestion = 0;
@@ -200,7 +200,8 @@ function showNextQuestion(questions, quizContainer, resultsContainer) {
     } questions correctly and you were ${percentage.toFixed(
       0
     )}% right with your answers`;
-    resultsContainer.style.display = "block"; // Show resultsContainer after the last question
+
+    resultsContainer.style.display = "flex"; // Show resultsContainer after the last question
   } else {
     showQuestion(questions[currentQuestion], quizContainer);
   }
