@@ -1,13 +1,13 @@
 @media (max-width: 768px) {
   .container {
     width: 80%;
-    margin: 70px auto;
+    margin: 60px auto;
   }
 
   #result {
     font-size: 1.3rem;
     position: absolute;
-    min-width: 300px;
+    width: 80%;
     top: 80%;
     left: 50%;
   }
