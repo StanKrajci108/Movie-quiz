@@ -52,7 +52,7 @@ const questions = [
       a: "Close Encounters of the Third Kind",
       b: "Signs",
       c: "E.T. the Extra-Terrestrial",
-      d: "war of the worlds",
+      d: "War of the worlds",
     },
     correctAnswer: "c",
   },
