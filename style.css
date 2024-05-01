@@ -93,10 +93,16 @@ body {
   position: absolute;
   top: 70%;
   left: 50%;
+  font-size: 1.5rem;
+  padding: 25px 35px;
   transform: translate(-50%, -50%);
   font-weight: 600;
+  color: #4a3d3d;
   line-height: 1.4;
-  max-width: 700px;
+  max-width: 500px;
+  background-color: #cbc8c8;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px 5px #2727274d;
 }
 
 .options input[type="radio"] {
